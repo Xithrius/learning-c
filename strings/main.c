@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char* str = "testing";
+int main()
+{
+    char *str = "testing";
 
     printf("%s\n", str);
 
@@ -10,7 +11,8 @@ int main() {
 
     printf("All the characters in order:\n");
 
-    for (int i = 0; i < strlen(str); i++) {
+    for (int i = 0; i < strlen(str); i++)
+    {
         printf("%d: %c\n", i, str[i]);
     }
 
