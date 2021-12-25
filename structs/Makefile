@@ -1,6 +1,5 @@
 CC=gcc
 STD=c11
-# MAKEFLAGS += --silent
 
 %.o: %.c
 	$(CC) -o $@ $< $(CFLAGS)
